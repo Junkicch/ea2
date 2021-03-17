@@ -1,0 +1,16 @@
+#include <stdio.h>
+// par ou impar
+ main() {
+ int a;
+ 
+//in
+  printf("Insira um Número\n");
+  scanf("%d", &a);
+//out
+ float x = a%2;
+ if(x==0){
+   printf("esse número é par");
+ }else{
+   printf("esse número é impar");
+ }
+}

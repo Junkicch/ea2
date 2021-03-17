@@ -1,0 +1,18 @@
+#include <stdio.h>
+// emprestimo
+ main() {
+ int a,b;
+//in
+ printf("salário bruto:\n");
+ scanf("%i", &a);
+ printf("valor da prestação:\n");
+ scanf("%d", &b);
+  
+//out
+ if(b<a*0.3){
+   printf("o emprestimo pode ser concedido ");
+ }else{
+   printf("o emprestimo pode ser concedido");
+ }
+
+}

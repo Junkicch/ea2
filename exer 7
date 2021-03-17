@@ -1,0 +1,17 @@
+#include <stdio.h>
+// divisivel por 10, 5 e 2
+ main() {
+ int a;
+//in
+ printf("insira um numero\n");
+ scanf("%i", &a);
+  
+//out
+int x=(a%2 || a%5 || a%10);
+ if(x==0){
+   printf("é divisivel por 2, por 5 e por 10");
+ }else{
+   printf("não é divisivel por 2, por 5 e por 10");
+ }
+
+}

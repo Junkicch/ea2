@@ -1,0 +1,19 @@
+#include <stdio.h>
+// negativo, positivo ou nulo
+ main() {
+ int a,b;
+//in
+ printf("insira um numero\n");
+ scanf("%i", &a);
+  printf("insira outro numero\n");
+ scanf("%d", &b);
+
+//out
+int x=a+b;
+ if(x>10){
+   printf("resultado:%d",x);
+ }else{
+   printf("nulo");
+ }
+
+}

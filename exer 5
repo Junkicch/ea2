@@ -1,0 +1,17 @@
+#include <stdio.h>
+// multiplo de 3
+ main() {
+ int a;
+//in
+ printf("insira um numero\n");
+ scanf("%i", &a);
+  
+//out
+int x=a%3;
+ if(x==0){
+   printf("é multiplo de 3");
+ }else{
+   printf("não é multiplo de 3");
+ }
+
+}

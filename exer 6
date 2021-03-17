@@ -1,0 +1,17 @@
+#include <stdio.h>
+// divisivel por 3 e 7
+ main() {
+ int a;
+//in
+ printf("insira um numero\n");
+ scanf("%i", &a);
+  
+//out
+int x=(a%3 || a%7);
+ if(x==0){
+   printf("é divisivel por 3 e por 7");
+ }else{
+   printf("não é divisivel por 3 e por 7");
+ }
+
+}

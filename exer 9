@@ -1,0 +1,18 @@
+#include <stdio.h>
+// idade verificada
+ main() {
+ int a,b;
+//in
+ printf("ano atual:\n");
+ scanf("%i", &a);
+ printf("ano de nascimento:\n");
+ scanf("%d", &b);
+  
+//out
+int x=a-b;
+if(b<1000){
+  printf("valor invalido");
+}else{
+  printf("idade:%d",x);
+}
+}
